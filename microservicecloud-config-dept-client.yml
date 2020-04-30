@@ -44,7 +44,7 @@ server:
   port: 8002
 
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: MICROSERVICECLOUD-DEPT
   datasource:
