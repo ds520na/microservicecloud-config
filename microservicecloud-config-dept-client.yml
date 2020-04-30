@@ -11,6 +11,7 @@ mybatis:
   type-aliases-package: com.atguigu.springcloud.entities
 
 spring:
+  profiles: dev
   application:
     name: MICROSERVICECLOUD-DEPT
   datasource:
@@ -43,6 +44,7 @@ server:
   port: 8002
 
 spring:
+  profiles: dev
   application:
     name: MICROSERVICECLOUD-DEPT
   datasource:
